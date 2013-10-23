@@ -1,0 +1,634 @@
+package configuration for libxslt is not found
+package configuration for libxml-2.0 is not found
+package configuration for libiconv is not found
+find_header: checking for libxml/parser.h... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘main’:
+conftest.c:3: warning: unused parameter ‘argc’
+conftest.c:3: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc-4.2 -E -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/parser.h>
+/* end */
+
+--------------------
+
+find_header: checking for libxslt/xslt.h... -------------------- yes
+
+"gcc-4.2 -E -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxslt/xslt.h>
+/* end */
+
+--------------------
+
+find_header: checking for libexslt/exslt.h... -------------------- yes
+
+"gcc-4.2 -E -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libexslt/exslt.h>
+/* end */
+
+--------------------
+
+have_func: checking for iconv_open() in iconv.h... -------------------- no
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘main’:
+conftest.c:8: warning: unused parameter ‘argv’
+Undefined symbols for architecture x86_64:
+  "_iconv_open", referenced from:
+      _t in ccL0DyHP.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <iconv.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { void ((*volatile p)()); p = (void ((*)()))iconv_open; return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:7: error: too few arguments to function ‘iconv_open’
+conftest.c: In function ‘main’:
+conftest.c:8: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <iconv.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { iconv_open(); return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+--------------------
+
+have_library: checking for iconv_open() in -liconv... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘main’:
+conftest.c:8: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <iconv.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { void ((*volatile p)()); p = (void ((*)()))iconv_open; return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+--------------------
+
+find_library: checking for xmlParseDoc() in -lxml2... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -liconv  -lruby-static -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlParseDoc’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -liconv  -lruby-static -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlParseDoc’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlParseDoc(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+find_library: checking for xsltParseStylesheetDoc() in -lxslt... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxml2 -liconv  -lruby-static -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xsltParseStylesheetDoc’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxml2 -liconv  -lruby-static -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xsltParseStylesheetDoc’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xsltParseStylesheetDoc(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+find_library: checking for exsltFuncRegister() in -lexslt... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘exsltFuncRegister’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘exsltFuncRegister’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { exsltFuncRegister(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlHasFeature()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlHasFeature’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlHasFeature’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlHasFeature(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlFirstElementChild’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlFirstElementChild’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlFirstElementChild(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetValidStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlSchemaSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlSchemaSetValidStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlSchemaSetValidStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlSchemaSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin12.4.1 -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/Users/ram/.rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/gdbm/include -I/usr/local/opt/libffi/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/ram/.rubies/ruby-2.0.0-p247/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib -L. -fstack-protector -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/gdbm/lib -L/usr/local/opt/libffi/lib  -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/ram/Documents/Code/rails_projects/tasc/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlSchemaSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlSchemaSetParserStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
