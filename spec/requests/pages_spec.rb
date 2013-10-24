@@ -4,64 +4,41 @@ describe "Pages" do
 
 	let(:base_title) { "TASC" }
 
-	describe "Home page" do
-		it "should have the content 'TASC'" do
-			visit '/pages/home'
-			expect(page).to have_content('TASC')
-		end
+	subject { page }
 
-		it "should have the title 'Home'" do
-			visit '/pages/home'
-			expect(page).to have_title("#{base_title}")
-		end
+	describe "Home page" do
+		before { visit root_path }
+
+		it { should have_content('TASC') }
+		it { should have_title(full_title('')) }
 	end
 
 	describe "Help page" do
-		it "should have the content 'Help'" do
-			visit '/pages/help'
-			expect(page).to have_content('Help')
-		end
+		before { visit help_path }
 
-		it "should have the title 'Help'" do
-			visit '/pages/help'
-			expect(page).to have_title("#{base_title} | Help")
-		end
+		it { should have_content('Help') }
+		it { should have_title(full_title('Help')) }
 	end
 
 	describe "About page" do
-		it "should have the content 'About'" do
-			visit '/pages/about'
-			expect(page).to have_content('About')
-		end
+		before { visit about_path }
 
-		it "should have the title 'About'" do
-			visit '/pages/about'
-			expect(page).to have_title("#{base_title} | About")
-		end
+		it { should have_content('About') }
+		it { should have_title(full_title('About')) }
 	end
 
 	describe "Members page" do
-		it "should have the content 'Members'" do
-			visit '/pages/members'
-			expect(page).to have_content('Members')
-		end
+		before { visit members_path }
 
-		it "should have the title 'Members'" do
-			visit '/pages/members'
-			expect(page).to have_title("#{base_title} | Members")
-		end
+		it { should have_content('Members') }
+		it { should have_title(full_title("Members")) }
 	end
 
 	describe "Sites page" do
-		it "should have the content 'Sites'" do
-			visit '/pages/sites'
-			expect(page).to have_content('Site')
-		end
+		before { visit sites_path}
 
-		it "should have the title 'Sites'" do
-			visit '/pages/sites'
-			expect(page).to have_title("#{base_title} | Sites")
-		end
+		it { should have_content('Sites') }
+		it { should have_title(full_title("Sites")) }
 	end
 	
 end

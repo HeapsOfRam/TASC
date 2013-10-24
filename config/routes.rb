@@ -1,9 +1,9 @@
 Tasc::Application.routes.draw do 
-  get "pages/home"
-  get "pages/help"
-  get "pages/about"
-  get "pages/members"
-  get "pages/sites"
+  root 'pages#home'
+  match '/help',    to: 'pages#help',    via: 'get'
+  match '/about',    to: 'pages#about',   via: 'get'
+  match '/members', to: 'pages#members', via: 'get'
+  match '/sites',   to: 'pages#sites',   via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
