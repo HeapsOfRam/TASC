@@ -106,3 +106,14 @@ footer {
 		}
 	}
 }
+
+.btn {
+
+	&:visited{
+		color: white;
+	}
+
+	&:hover{
+		color: $grayLight;
+	}
+}
