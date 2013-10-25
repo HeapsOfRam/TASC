@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	padding-top: 60px;
+	padding-top: 0px;
 }
 
 section {
@@ -24,9 +24,20 @@ textarea {
 
 .center {
 	text-align: center;
+	background-color: $grayLight;
+	height: 502px;
 	
 	h1 {
+		color: #eaeaea;
 		margin-bottom: 10px;
+	}
+
+	h2 {
+		color: #fff;
+	}
+
+	img {
+		margin-top: 10px;
 	}
 }
 
@@ -78,11 +89,12 @@ p {
 
 /* footer */
 
-footer {
-	margin-top: 45px;
-	padding-top: 5px;
-	border-top: 1px solid #eaeaea;
+.navbar-fixed-bottom {
+	margin-top: 0px;
+	padding-top: 0px;
+	border-top: 1px solid #000;
 	color: $grayLight;
+	background-color: black;
 
 	a {
 		color: $gray;
@@ -94,6 +106,7 @@ footer {
 
 	small {
 		float: left;
+		margin-left: 10px;
 	}
 
 	ul {
@@ -103,6 +116,7 @@ footer {
 		li {
 			float: left;
 			margin-left: 10px;
+			margin-right: 10px;
 		}
 	}
 }
@@ -116,4 +130,5 @@ footer {
 	&:hover{
 		color: $grayLight;
 	}
+
 }

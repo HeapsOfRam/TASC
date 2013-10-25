@@ -11,8 +11,10 @@
   <body>
     <%= render 'layouts/header' %>
     <div class="container">
-      <%= yield %>
-      <%= render 'layouts/footer' %>
+      <div class="center hero-unit">
+        <%= yield %>
+      </div>
+      <%= render 'layouts/footer' %>  
     </div>
   </body>
 </html>
